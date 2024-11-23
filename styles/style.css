@@ -120,6 +120,9 @@ ol {
 .content__video-card-description {
   line-height: 16.2px;
 }
+.content__accent {
+  color: #545050;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -170,7 +173,6 @@ ol {
   gap: 15px;
 }
 
-
 .button {
   border: 1px solid #fff;
   padding: 6px 0;
@@ -193,4 +195,18 @@ ol {
 .search-form__submit-button {
   align-self: flex-end;
 }
+.search-form__textfield:has(:focus-visible) {
+  border: 1px #fff;
+}
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+  content: "";
+  display: block;
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+}
+.search-form__label:hover{
+  text-decoration: underline solid #fff;
 
+}
