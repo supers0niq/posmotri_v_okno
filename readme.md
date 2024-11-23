@@ -1,1 +1,1 @@
-https://github.com/supers0niq/posmotri_v_okno/
+https://github.com/supers0niq/posmotri_v_okno
