@@ -207,7 +207,7 @@ ol {
   margin: 1px;
 }
 .search-form__label:hover {
-  text-decoration: underline solid #fff;
+  text-decoration: none;
 }
 .button:hover {
   text-decoration: underline 1px #fff;
