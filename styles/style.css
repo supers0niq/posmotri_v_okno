@@ -53,11 +53,12 @@ ol {
 .content__list {
   position: relative;
   overflow-y: auto;
-  scrollbar-width: none;
+  scrollbar-width: thin; /* Узкий скроллбар для Firefox */
+  scrollbar-color: #888 transparent;
   height: 298px;
 }
 .content__details {
-  width: 100%;
+  max-width: 399px;
 }
 .result__video-container {
   position: relative;
@@ -119,6 +120,11 @@ ol {
 }
 .content__video-card-description {
   line-height: 16.2px;
+}
+.content__video-card-title{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .content__accent {
   color: #545050;
