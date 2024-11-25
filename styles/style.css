@@ -211,10 +211,6 @@ ol {
   text-decoration: none;
 }
 
-.button:focus {
-  outline: none;
-}
-
 .search-form__pseudo-checkbox {
   display: block;
   outline: 1px solid #fff;
