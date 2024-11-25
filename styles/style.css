@@ -73,6 +73,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 .content__list-item:not(:last-child) {
   margin-bottom: 32px;
@@ -221,7 +222,8 @@ ol {
   height: 19px;
 }
 .search-form__textfield:has(:focus-visible) {
-  border: 1px #fff;
+  outline: 1px solid #FFF;
+  outline-offset: 1px;
 }
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: "";
@@ -262,6 +264,7 @@ ol {
 }
 .content__card-link:active {
   background: #545050;
+  text-decoration: none;
 }
 .content__card-link:focus-visible {
   outline: 1px solid #ffffff;
